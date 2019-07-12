@@ -28,9 +28,9 @@
 
 		<li><a href="/Librarymanagement/SearchServlet.html"><font size="10">検索画面</font></a></li>
 
-
-
 </ul>
+
+
 
 </div>
 
