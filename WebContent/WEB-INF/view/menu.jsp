@@ -28,9 +28,7 @@
 
 		<li><a href="/Librarymanagement/SearchServlet.html"><font size="10">検索画面</font></a></li>
 
-		<li><font size="10">変更画面</font></li>
 
-		<li><font size="10">貸し出し履歴画面</font></li>
 
 </ul>
 
