@@ -25,7 +25,7 @@ public class Update2 {
 			con = DriverManager.getConnection(
 					"jdbc:mysql://localhost:3306/librarymanagement?serverTimezone=JST",
 					"root",
-					"rinsyuval0510k");
+					"(パスワード)");
 
 
 			String sql = "UPDATE book_information SET loanstate = ? WHERE bookid = ?";

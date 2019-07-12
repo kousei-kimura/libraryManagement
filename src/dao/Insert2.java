@@ -28,7 +28,7 @@ public class Insert2 {
 			con = DriverManager.getConnection(
 					"jdbc:mysql://localhost:3306/Librarymanagement?serverTimezone=JST",
 					"root",
-					"rinsyuval0510k");
+					"(パスワード)");
 
 
 			String sql = "INSERT INTO USER_Date VALUES(?,?,?,?,?,?,?)";

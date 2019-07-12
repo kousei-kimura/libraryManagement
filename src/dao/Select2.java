@@ -12,7 +12,7 @@ import dto.Loan_historyDto;
 
 public class Select2 {
 
-	//図書履歴の一覧
+	//図書履歴の一覧(未使用)
 
 	public static ArrayList<Loan_historyDto> serchALLHistory(){
 
@@ -31,7 +31,7 @@ public class Select2 {
 			con = DriverManager.getConnection(
 					"jdbc:mysql://localhost:3306/librarymanagement?serverTimezone=JST",
 					"root",
-					"rinsyuval0510k");
+					"(パスワード)");
 
 			String sql = "SELECT * FROM Loan_history";
 

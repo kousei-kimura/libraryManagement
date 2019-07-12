@@ -30,7 +30,7 @@ public class LoginDao {
 			con = DriverManager.getConnection(
 					"jdbc:mysql://localhost:3306/librarymanagement?serverTimezone=JST",
 					"root",
-					"rinsyuval0510k");
+					"(パスワード)");
 
 			String sql = "SELECT * FROM USER_Date WHERE UserID = ?";
 

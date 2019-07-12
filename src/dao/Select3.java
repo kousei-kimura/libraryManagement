@@ -30,7 +30,7 @@ public class Select3 {
 			con = DriverManager.getConnection(
 					"jdbc:mysql://localhost:3306/librarymanagement?serverTimezone=JST",
 					"root",
-					"rinsyuval0510k");
+					"(パスワード)");
 
 			String sql = "SELECT * FROM book_information WHERE bookid = ?";
 

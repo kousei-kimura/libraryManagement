@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class Update3 {
 
-	//図書履歴の更新
+	//図書履歴の更新(未使用)
 
 	public static int updateBook3(Date updeteDay , String updeteId){
 
@@ -26,7 +26,7 @@ public class Update3 {
 			con = DriverManager.getConnection(
 					"jdbc:mysql://localhost:3306/librarymanagement?serverTimezone=JST",
 					"root",
-					"rinsyuval0510k");
+					"(パスワード)");
 
 
 			String sql = "UPDATE Loan_history SET ReturnDay = ? WHERE LoanBookID = ?";

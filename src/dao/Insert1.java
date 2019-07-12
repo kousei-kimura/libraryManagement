@@ -29,7 +29,7 @@ public class Insert1 {
 			con = DriverManager.getConnection(
 					"jdbc:mysql://localhost:3306/Librarymanagement?serverTimezone=JST",
 					"root",
-					"rinsyuval0510k");
+					"(パスワード)");
 
 
 			String sql = "INSERT INTO Book_Information VALUES(?,?,?,?,?,?,?,?)";

@@ -27,7 +27,7 @@ public class Insert3 {
 
 				con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Librarymanagement?serverTimezone=JST",
 													"root",
-													"rinsyuval0510k");
+													"(パスワード)");
 
 
 				String sql = "INSERT INTO Loan_history  (LoanBookID , LoanUserID , LoanDay , ReturnDay) VALUES(?,?,?,?)";
